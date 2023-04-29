@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="./css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css"> 
     <title> .Prestação de serviços online. </title>
 </head>
 <body>
@@ -25,6 +26,105 @@
             
 
         </nav>
-    </header>  
+    </header>
+	<!-- Fim Menu Responsivo -->
+	<!-- Início Carousel Página Principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false"="">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1600">
+                <img
+                src="./img/carouse-1.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img
+                src="./img/carouse-2.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img
+                src="./img/carouse-3.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+                <img
+                src="./img/carouse-4.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <!-- Shift + Alt - Selecionar linhas e alterar diversas linhas com mesmo valor-->
+            <div class="carousel-item" data-bs-interval="1500">
+                <img
+                src="./img/carouse-1.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+        </div>
+        <!-- Fim imagens Carousel-->
+        <!-- Início controle do Carousel -->
+        <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Fim do controle do Carousel -->
+    <!-- Fim do Carousel -->
+    <!-- Inicio banner-->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/banner2.avif" alt="banner-home">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="texto-banner d-none d-md-block">
+                    <h1>Venha conhecer nossas promoções de lançamento</h1>
+                    <p class="d-n d-m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nemo ullam, a quis labore eos magnam tempore excepturi. Id eveniet molestiae voluptatem maiores repellendus obcaecati veniam accusamus incidunt libero vel.</p>
+                    <a href="produtos.html">Saiba mais</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!--Fim do banner-->
+    <!--Inicio destaque-->
+    <div class="Destaque">
+        <div class="Container">
+            <div class="row d-flex justify-content-center">
+                <!--Inicio da tag section do texto do destque-->
+                <section class="col-12">
+                    <h2>Que tal conhecer alguns Freelancers em nossa plataforma</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat laboriosam impedit dicta corporis inventore adipisci nam eum totam sit similique possimus sint nesciunt quisquam iusto, facere tempora eos repellat rerum.</p>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
 </html>
